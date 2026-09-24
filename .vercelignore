@@ -1,0 +1,25 @@
+# Breach datasets
+Instagram.json
+uppcl_db.csv
+COLLEGEDEKHO.COM.txt
+*.breach
+
+# GeoLite datasets
+GeoLite2-ASN-Blocks-IPv4.csv
+GeoLite2-ASN-Blocks-IPv6.csv
+
+# Large sample media and runtime files
+server/uploads/*
+!server/uploads/.gitkeep
+server/node_modules
+client/node_modules
+node_modules
+cdrs/
+ipdrscdrs/
+helper_scripts/
+*.log
+
+# Sensitive environments
+.env
+.env.local
+*.local
